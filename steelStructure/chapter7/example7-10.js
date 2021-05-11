@@ -76,7 +76,7 @@ const example = (
     //         log(`횡좌굴강도는 Mn = Mp = ${Mn / 1000000}kN*m`);
     //     } else if (Lb < Lr) {
     //         // Zone 2
-    //         log(`Lb가 Lp보다는 크고 Lr보다 작으므로 Zone1에 해당한다.`);
+    //         log(`Lb가 Lp보다는 크고 Lr보다 작으므로 Zone2에 해당한다.`);
     //         const Mp = Fy * Zx; // 소성모멘트
     //         log(`소성모멘트 Mp = ${Mp / 1000000}kN*m`);
 
