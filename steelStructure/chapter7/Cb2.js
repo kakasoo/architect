@@ -1,4 +1,4 @@
-// 175P의 Cb 값 구하기
+// 176P의 Cb 값 구하기
 
 const getCb = (Ma, Mb, Mc, Mmax) => {
     const Cb = (12.5 * Mmax) / (2.5 * Mmax + 3 * Ma + 4 * Mb + 3 * Mc);
