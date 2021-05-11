@@ -85,6 +85,7 @@ const example = (
 
             const Mn = Cb * Mp - (Mp - Mr) * ((Lb - Lp) / (Lr - Lp));
             log(`횡좌굴강도는 Mn = ${Mn / 1000000}kN*m`);
+            log(`만약 Mmax 값이 φMn = (0.9 * Mn)보다 작다면 안전한 것이다.`);
 
             // const Mmax = ((38.4 * 12) / 2) * 6;
             // console.log(Mmax);
@@ -127,7 +128,7 @@ const example = (
         // console.log(Vmax);
     }
 
-    if (N === undefined) {
+    if (N !== undefined) {
         log("------------------------------------------------------------");
         log(
             "집중하중에 의한 국부항복 (국부적인 압축응력, 인장응력, 반력에 의한)"
