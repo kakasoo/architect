@@ -11,7 +11,7 @@ const example = (
 
     r = 20 // rounded, 필릿부 반경
 ) => {
-    const λw = (플랜지_폭두께비 = B / 2 / 16); // λ
+    const λw = (플랜지_폭두께비 = B / 2 / t2); // λ
     const λpw = (플랜지_조밀_단면한계 = 0.38 * root(210000 / Fy)); // λp
     const λrw = (플랜지_비조밀_단면한계 = 1.0 * root(210000 / Fy));
     console.log("플랜지 폭 두께비 : ", λw);
